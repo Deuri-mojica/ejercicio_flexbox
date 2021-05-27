@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: #963ab4;
+}
+
+
+.contenedor-nav header nav{
+    display: flex;
+    justify-content: center;
+    max-width:auto;
+    height: 40px;
+    justify-content: space-evenly;
+    background-color:#090979;
+}
+.contenedor-nav header{
+    width: 100%;
+    height: auto;
+    background-color: #090979;
+}
+.contenedor-nav header nav a{
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.contenedor-nav header nav a:hover{
+    background-color: #ebd224;
+    color: black;
+}
+.contenedor{
+    display: flex;
+    width: auto;
+    height: 600px;
+    background-color:#ffffff;
+    margin: auto;
+    flex-direction: row;
+}
+.contenedor-1{
+    width: 800px;
+    background-color: #000000;
+    color: #fff;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+.contenedor .contenedor-2-3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.contenedor .contenedor-2{
+    background-color: #0000ff;
+    height: 350px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+.contenedor .contenedor-3{
+    background-color:#ff0000;
+    height: 334px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+.contenedor .contenedor-1:hover{
+    background:#b37d07;
+}
+.contenedor .contenedor-2:hover{
+    background-color:#8ab307;
+}
+.contenedor .contenedor-3:hover{
+    background-color: #b30781;
+}
+.contenedor-footer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contenedor-footer i a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;  
+}
+.contenedor-footer i a:hover{
+    background-color:#ebd224;
+    color: black;
+}
+.contenedor-footer p{
+    color: #fff;
+     font-size: 18px;
+    font-family: cursive;        
+}
+.contenedor-footer i{
+    font-size: 25px;
+}
+
+   
+   
